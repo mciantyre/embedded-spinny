@@ -1,0 +1,21 @@
+[package]
+name = "embedded-spinny"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[dependencies.cassette]
+version = "0.2.4"
+
+[dependencies.embedded-hal-async]
+version = "1.0.0-rc.3"
+
+[dependencies.embedded-hal]
+version = "1.0.0-rc.3"
+
+[dependencies.embedded-io-async]
+version = "0.6"
+
+[dependencies.embedded-io]
+version = "0.6"
